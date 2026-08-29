@@ -34,7 +34,7 @@ name = "ksproject-studio"
 version = "0.0.1"
 
 [tool.uv.sources]
-ksp-bootstraps = { git = "https://github.com/kivy-schoool/ksp-bootstraps", rev="logging-fix" }
+ksp-bootstraps = { git = "https://github.com/AWFER/ksp-bootstraps", rev="logging-fix" }
 ksproject-studio = { git = "https://github.com/kivy-school/ksproject-studio" }
 #ksp-bootstraps = { git = "https://github.com/kivy-school/ksp-bootstraps", branch = "optimize" }
 
