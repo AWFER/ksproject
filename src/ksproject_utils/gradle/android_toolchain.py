@@ -183,7 +183,7 @@ class AndroidToolchain:
         
         # Resolve NDK path using the corrected user-first priority flow
         ndk_path = _resolve_ndk(android, sdk_path, ndk_version, java_path)
-        _ensure_emulator(sdk_path, sdk_version, java_path)
+        # _ensure_emulator(sdk_path, sdk_version, java_path)
 
         # Read the absolute ground-truth version directly from the installation's source.properties
         resolved_ndk_version = _get_actual_ndk_version(ndk_path, ndk_version)
